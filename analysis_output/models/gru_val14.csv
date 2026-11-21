@@ -1,0 +1,2 @@
+iter,val_MAP7,val_recall7,monitor_MAP7,val_month,tag,train_seconds
+9,0.8947842234183498,0.9869935700979509,0.898964501448422,14,gru,99.88952112197876

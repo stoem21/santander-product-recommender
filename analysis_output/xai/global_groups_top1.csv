@@ -1,0 +1,10 @@
+feature_group,share_of_abs_SHAP_for_top1
+history of THIS product,0.5222446946977894
+history of OTHER products,0.24978153850700038
+"other profile (tenure, income, segment, channel, activity, ...)",0.07795237441569798
+product counts (held/adds/drops),0.05842780708739936
+age,0.03642058843656278
+profile in previous months (B),0.028321230839551497
+month_of_year,0.019772660790743357
+sex / foreigner / residence,0.00468186044496675
+n_prior_capped,0.0023972447802883927
