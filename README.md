@@ -6,7 +6,8 @@ the product that fits them instead of pushing the same best-sellers to everyone.
 
 Using 17 months of anonymised data from the Spanish bank Santander (a public Kaggle dataset), I built a model that
 does this. For customers who opened a new product, **the model's first suggestion was the right one 84% of the
-time**, compared with about 51% when suggesting the month's best-sellers.
+time**, compared with about 51% when suggesting last year's
+best-sellers for the same month.
 
 ## Summary
 
@@ -96,8 +97,8 @@ These are averages over the four test months, for customers who opened at least 
 - **Comebacks are easy, first-timers are hard:** when a customer reopens a product they once had, the model puts it
   first 95% of the time. For a product they have never had, only 66%.
 - **Quiet customers are the hardest:** customers with no changes for five months are 29% of customers who opened a
-  product but 52% of the model's misses. Life changes help: students who just started working opened a product
-  2.6 times as often as other students (4.2% against 1.6%).
+  product but account for 52% of the points the model loses. Life changes help: students who just started working
+  opened a product 2.6 times as often as other students (4.2% against 1.6%).
 - **Importance is not the same as impact:** an explainability tool (SHAP) said sex and nationality barely
   mattered, yet switching sex alone changed the top suggestion for 8.4% of customers. Removing them barely
   changed accuracy.
